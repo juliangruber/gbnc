@@ -20,7 +20,10 @@ var mdm = MuxDemux();
 
 mdm.createReadStream('random')
 .pipe(bufToAudioStream())
-.pipe(webaudioStream());
+.pipe(tee(
+  fs.createWriteStream('recording', { flag: 'a' }),
+  webaudioStream()
+));
 
 mdm.pipe(shoe('/shoe')).pipe(mdm);
 

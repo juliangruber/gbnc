@@ -3,7 +3,6 @@ var ecstatic = require('ecstatic');
 var shoe = require('shoe');
 var fs = require('fs');
 var MuxDemux = require('mux-demux/jsonb');
-var through = require('through');
 var toString = require('./lib/tostring');
 
 var server = http.createServer(ecstatic(__dirname));
@@ -23,3 +22,4 @@ var sock = shoe(function(con) {
   con.pipe(mdm).pipe(con);
 });
 sock.install(server, '/shoe');
+
