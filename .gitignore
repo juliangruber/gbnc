@@ -1,2 +1,4 @@
 */bundle.js
 *.sw*
+bundle.js
+node_modules
