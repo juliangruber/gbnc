@@ -1,4 +1,8 @@
-gbnc
-====
 
-Great British Node Conf Talk
+# GBNC
+
+  Hi, I'm
+  [juliangruber](http://juliangruber.com).
+
+  Let's write some code!
+
