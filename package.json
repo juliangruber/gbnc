@@ -13,19 +13,19 @@
   },
   "dependencies": {
     "container-el": "0.0.1",
-    "ecstatic": "~0.4.10",
-    "levelup": "~0.17.0",
-    "level-store": "~3.10.0",
-    "level-js": "~1.0.8",
-    "tee-1": "~0.1.1",
+    "ecstatic": "~2.1.0",
+    "levelup": "~1.3.3",
+    "level-store": "~3.11.0",
+    "level-js": "~2.2.4",
+    "tee-1": "~0.2.0",
     "through": "~2.3.4",
-    "domready": "~0.2.12",
+    "domready": "~1.0.8",
     "shoe": "0.0.15",
-    "level-fs": "~0.10.0",
+    "level-fs": "~0.11.2",
     "mux-demux": "~3.7.8",
-    "reconnect": "~1.5.2",
+    "reconnect": "~2.0.2",
     "throttle": "~1.0.3",
-    "webaudio": "~1.0.0"
+    "webaudio": "~2.0.0"
   },
   "devDependencies": {
     "tape": "*"
